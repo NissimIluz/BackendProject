@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALContract\DALContract.csproj" />
+    <ProjectReference Include="..\InfraAttributes\InfraAttributes.csproj" />
+    <ProjectReference Include="..\SqlParameterImpl\SqlParameterImpl.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinalExerciseModuleAContracts\Contracts.csproj" />
+    <ProjectReference Include="..\Game\GameImpl.csproj" />
+    <ProjectReference Include="..\UserServiceImpl\UserServiceImpl.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALContract\DALContract.csproj" />
+    <ProjectReference Include="..\DALImpl\DALImpl.csproj" />
+    <ProjectReference Include="..\FinalExerciseModuleAContracts\Contracts.csproj" />
+    <ProjectReference Include="..\InfraAttributes\InfraAttributes.csproj" />
+    <ProjectReference Include="..\RegisterDTO\UserServiceDTO.csproj" />
+  </ItemGroup>
+
+</Project>

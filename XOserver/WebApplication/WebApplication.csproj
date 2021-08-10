@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CreateGameDTO\CreateGameDTO.csproj" />
+    <ProjectReference Include="..\DALContract\DALContract.csproj" />
+    <ProjectReference Include="..\DALImpl\DALImpl.csproj" />
+    <ProjectReference Include="..\DynamicLoaderComponent\DynamicLoaderComponent.csproj" />
+    <ProjectReference Include="..\FinalExerciseModuleAContracts\Contracts.csproj" />
+    <ProjectReference Include="..\GamePlatformService\GamePlatformServiceImp.csproj" />
+    <ProjectReference Include="..\GamePlayDTO\GamePlayDTO.csproj" />
+    <ProjectReference Include="..\Game\GameImpl.csproj" />
+    <ProjectReference Include="..\UserServiceImpl\UserServiceImpl.csproj" />
+    <ProjectReference Include="..\XOBoardMatImpl\XOBoardMatImpl.csproj" />
+    <ProjectReference Include="..\XOboardRandomPlayer\XOboardRandomPlayer.csproj" />
+    <ProjectReference Include="..\XOBoardScanPlayer\XOBoardScanPlayer.csproj" />
+  </ItemGroup>
+
+
+</Project>
