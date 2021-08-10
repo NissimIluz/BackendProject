@@ -3,4 +3,5 @@
 
 ### Instructions:
 •	Run the SQL script to have our database.
-•	In file DALServices/ DALImpl/ DAL.cs set "MyConn" string with your computer name
+
+•	In file DALServices/ DALImpl/ DAL.cs set "MyConn" string with your computer name.
