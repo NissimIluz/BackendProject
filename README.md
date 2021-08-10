@@ -1,4 +1,4 @@
-# backend Project
+# Backend Project
 ## Server for xo game, with users and auto player
 
 ### Instructions:
